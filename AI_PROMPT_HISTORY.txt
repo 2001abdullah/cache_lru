@@ -1,0 +1,116 @@
+AI Prompt History
+=================
+
+This file documents the prompts and instructions used while working on the LRU Cache project. It is included for transparency and to show the development process clearly in a GitHub repository.
+
+Project: LRU Cache
+
+Prompt 1
+---------
+"Explain the code in detail of this project."
+
+Purpose:
+- Understand the implementation structure
+- Review how the LRU cache logic works
+- Explain the role of the dictionary and linked list
+
+Prompt 2
+---------
+"Can you make the whole project simple and easy to see. Remove unnecessary code."
+
+Purpose:
+- Simplify the implementation
+- Remove verbose or redundant code
+- Keep the core LRU behavior clear and readable
+
+Prompt 3
+---------
+"How do I run the project and check?"
+
+Purpose:
+- Verify how to execute the project
+- Check how to run the example scripts
+- Confirm the correct test command
+
+Prompt 4
+---------
+"What does the lru_cache_ttl file do?"
+
+Purpose:
+- Explain TTL-based expiration support
+- Clarify how expiration interacts with LRU eviction
+- Review lazy expiration behavior
+
+Prompt 5
+---------
+"What does the get and put function do?"
+
+Purpose:
+- Explain core API behavior
+- Show how recency is updated
+- Clarify eviction behavior when the cache is full
+
+Prompt 6
+---------
+"Did you update and simplify the README.md file according to the change?"
+
+Purpose:
+- Check project documentation alignment
+- Ensure README matches the simplified implementation
+
+Prompt 7
+---------
+"Do it."
+
+Purpose:
+- Update the README to reflect the final simplified project structure
+
+Prompt 8
+---------
+"How do update the github repo readme.md"
+
+Purpose:
+- Explain the basic GitHub workflow for committing README updates
+
+Prompt 9
+---------
+"Task 3 – Algorithm Explanation & Critical Thinking"
+
+Purpose:
+- Write a concise technical explanation of the algorithm
+- Describe data structures, complexity, use cases, and trade-offs
+
+Prompt 10
+-----------
+"Make it within 200 words and precise to the answer."
+
+Purpose:
+- Shorten the explanation to a precise, recruiter-friendly response
+
+Prompt 11
+-----------
+"Do this for the lru_cache project"
+
+Purpose:
+- Adapt the algorithm explanation directly to this project
+
+Prompt 12
+-----------
+"Create a AI_PROMPT_TEXT file and add all the prompt there so the recruiter could see what i used as prompt, make the txt file suitable for github."
+
+Purpose:
+- Record the prompt history transparently
+- Keep the file suitable for public repository viewing
+
+Notes
+-----
+- The project uses Python and a standard library-only implementation.
+- The core algorithm is an LRU cache based on a dictionary plus a doubly linked list.
+- The TTL extension adds expiration checks without a background thread.
+- Validation was performed using the project test suite via Python unittest.
+
+Validation command used:
+python -m unittest -q
+
+Result:
+All tests passed successfully.
